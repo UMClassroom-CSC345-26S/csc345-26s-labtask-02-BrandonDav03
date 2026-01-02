@@ -1,22 +1,19 @@
-# Identify the Car
+# Identify the Car Style
 
-Can a K-nearest neighbours classifier predict the make of a car from it's length, width, 
-height, number of doors, and style?
+Can a K-nearest neighbours classifier predict the style of a car from it's interior volume, number of doors, and make?
 This labtask has several parts:
 - Collect the data for 10 cars.
-  The sample must be a *Simple Random Sample*, and you must write a short explanation why your
+  The sample must be a *Simple Random Sample*. Write a short explanation why your
   sample is a simple random sample.
   One smart idea is to head out to a random carpark on campus, Publix, etc., and sample the cars
   appropriately.
   Submit that justification in a file `SimpleRandomSample.pdf`. (0.5%)
-- Put the data in an Excel spreadsheet called `MyCars.csv` with the columns `Length`, `Width`,
-  `Height`, `Doors`, `Style`, and `Make`.
-  The `Length`, `Width`, and `Height` are an integer number of inches.
+- Put the data in an Excel spreadsheet called `MyCars.csv` with the columns `Volume`, `Doors`, `Make`, and `Style`.
+  The `Volume` in a real number of cubic feet.
   The `Doors` is an integer (count a hatchback as a door).
-  The `Style` is one of `Sedan`, `SUV` (including Jeep Wranglers), `Pickup`.
   The `Make` is something like `Ford`, `Tesla`, `Nissan`, etc.
-  You can get the data for a car by asking an LLM like ChatGPT (but feel free to walk around with
-  a tape measure to get your data :-).
+  The `Style` is one of `Sedan`, `SUV`, `Jeep`, `Pickup`, or `Van`.
+  You can get the interior volume of a car by asking an LLM, giving the make and model - something like "What is the interior volume of a Nissan Xterra?".
   Submit `MyCars.csv`. (0.5%)
 - The TA will combine all the samples into one spreadsheet that everyone can use.
 - Randomly split the data set into a training set of 80% and a testing set of 20%.
