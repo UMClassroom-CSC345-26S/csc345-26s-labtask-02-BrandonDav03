@@ -13,7 +13,8 @@ This labtask has several parts:
   The `Volume` is a real number of cubic feet.
   The `Doors` is an integer (count a hatchback as a door).
   The `Style` is one of `Sedan`, `SUV`, `Jeep`, `Pickup`, or `Van`.
-  You can get the interior volume of a car by asking an LLM, giving the make and model - something like "What is the interior volume of a Nissan Xterra?".
+  You can get the interior volume of a car by asking an LLM, giving the make and model - something like
+  "What is the interior volume of a Nissan Xterra?".
   Submit `MyCars.csv`. (0.5%)
 - The TA will combine all the samples into one spreadsheet that everyone can use.
 - Randomly split the data set into a training set of 80% and a testing set of 20%.
@@ -25,7 +26,6 @@ This labtask has several parts:
   Call the Python program `KNNClassifier.py`.
   Create a spreadsheet called `Accuracy.csv` with the columns `K` and `Accuracy`, and record the
   accuracy achieved for each `K`.
-  Report the results for the `K` with the highest accuracy.
-  Add three new columns to  `Testing.csv` called `Prediction`, and `Confidence` to store the
-  prediction and confidence for each car in the testing set.
+  Report the results for the `K` with the highest accuracyby adding two new columns to  `Testing.csv` called
+  `Prediction`, and `Confidence` to store the prediction and confidence for each car in the testing set.
   Submit `Training.csv`, `Testing.csv`, `Accuracy.csv`, and `KNNClassifier.py`. (3.0%)
