@@ -4,7 +4,7 @@
 <TABLE BORDER=0>
 <TR> <TD COLSPAN=2 WIDTH=50%> Student:
      <TD WIDTH=40%> Mark:
-     <TD WIDTH=10%> /4.0
+     <TD WIDTH=10%> 3/4.0
 <TR> <TD COLSPAN=4> &nbsp;
 <TR> <TH ALIGN=LEFT COLSPAN=4> Vehicle data - 2.0
 <TR> <TD WIDTH=40%> Anything submitted
@@ -22,7 +22,7 @@
 <TR> <TD WIDTH=40%> Iterated to find best K (<TT>Accuracy.csv</TT>)
      <TD WIDTH=10%> [1.0]
      <TD WIDTH=40%> Predictions and confidence (<TT>Testing.csv</TT>)
-     <TD WIDTH=10%> [1.0]
+     <TD WIDTH=10%> [1.0] no prediction and confidence in Testing.csv
 
 <TR> <TD COLSPAN=4> &nbsp;
 <TR> <TH ALIGN=LEFT COLSPAN=4> Code quality (negative marking to -1)
